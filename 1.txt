@@ -17,7 +17,6 @@ app.post('/api/members', (req, res) => {
     }
     members.push(newMember);
     res.json(members);
-});
 ///update
 app.put('/api/members/:id', (req, res) => {
   // chech to see if the member exists
